@@ -44,7 +44,11 @@ public class Main {
 		for (Virag x : lista) virag.add(x.virag);
 		System.out.printf("1) Összesen %d féle virágot rendeltek (abc):\n   ", virag.size());
 		for (String x : virag) System.out.printf("%s ", x);
+<<<<<<< HEAD
 		System.out.println();
+=======
+		System.out.println("Ez NEM kell ide...");
+>>>>>>> f620e8059a9cd1305d914e60283823eae841c8fb
 	}
 	
 	private void f2_orankent() {
